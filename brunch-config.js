@@ -7,12 +7,11 @@ module.exports = {
       watched: ["src"]
     },
     files: {
-      javascripts: {
-      },
-      stylesheets: {
-      },
-      templates: {
-      }
+      javascripts: { joinTo: "javascripts/application.js" },
+      stylesheets: { joinTo: "stylesheets/application.css" }
+    },
+    plugins: {
+      sass: 'native'
     }
   }
 }

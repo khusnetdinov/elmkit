@@ -5,17 +5,20 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/khusnetdinov/elmkit"
   },
   "author": "Marat Khusnetdinov",
   "license": "MIT",
+  "main": "brunch-config.js",
   "dependencies": {},
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
-    "brunch": "^2.0"
+    "brunch": "^2.8.2",
+    "hmr-brunch": "^0.1.1",
+    "sass-brunch": "^2.6.3"
   },
   "scripts": {
-    "postinstall": "",
-    "development": "brunch watch --server"
+    "development": "brunch watch --server",
+    "build": "brunch build --production"
   }
 }
