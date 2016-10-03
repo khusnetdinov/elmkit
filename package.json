@@ -1,0 +1,21 @@
+{
+  "name": "elmkit",
+  "version": "0.0.1",
+  "description": "Elm starter kit",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Marat Khusnetdinov",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "brunch": "^2.0"
+  },
+  "scripts": {
+    "postinstall": "",
+    "development": "brunch watch --server"
+  }
+}
