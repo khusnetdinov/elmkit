@@ -11,7 +11,13 @@ module.exports = {
       stylesheets: { joinTo: "stylesheets/application.css" }
     },
     plugins: {
-      sass: 'native'
+      sass: {
+        mode: 'native'
+      },
+      elmBrunch: {
+        mainModule: "src/elm/Main.elm",
+        outputFolder: "public/javascripts/"
+      }
     }
   }
 }

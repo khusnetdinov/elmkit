@@ -19,10 +19,15 @@
     <!-- ADD YOUR SITE VENDOR STYLESHEETS DEPENDENSIES AFTER -->
 
     <!-- ADD YOUR SITE VENDOR JAVASCRIPT DEPENDENSIES AFTER -->
+    <script src="javascripts/main.js" type="text/javascript" charset="utf-8"></script>
     <script src="javascripts/application.js" type="text/javascript" charset="utf-8"></script>
     <!-- ADD YOUR SITE VENDOR JAVASCRIPT DEPENDENSIES BEFORE -->
   </head>
   <body>
-    index.html
+    <div id="application">
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      Elm.Main.embed(document.getElementById('application'));
+    </script>
   </body>
 </html>
