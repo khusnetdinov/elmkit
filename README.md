@@ -2,6 +2,14 @@
 
 >  [Elm kit](https://github.com/khusnetdinov/elmkit) is web application boilerplate kit for development. This kit build on [Brunch](http://brunch.io/), [Node](https://nodejs.org/en/), [Sass](http://sass-lang.com/), [Elm-lang](http://elm-lang.org/). It helps you to start development more productive following best practices.
 
+## Features
+
+- Building project with [Brunch](https://brunch.io)
+- Auto re-build project on change files [auto-reload-brunch](https://github.com/brunch/auto-reload-brunch)
+- Hot Module Reloading with [hrm-brunch](https://github.com/brunch/hmr-brunch)
+- [Elm-lang](http://elm-lang.org/) integration
+- [Scss](http://sass-lang.com/) styles integration
+
 ## Getting started
 
 ### Files structure
