@@ -64,13 +64,10 @@ You need to install [Node](https://nodejs.org/en/), [Elm-lang](http://elm-lang.o
 
 ## Installation
 
-Clone this repo: `git clone https://github.com/khusnetdinov/elmkit`
-
-Go to directory: `cd elmkit`
-
-Get all you need: `npm install`
-
-Run project: `npm run development`
+`git clone https://github.com/khusnetdinov/elmkit`
+`cd elmkit`
+`npm install`
+`npm run development`
 
 
 
