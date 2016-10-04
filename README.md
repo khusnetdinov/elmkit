@@ -65,8 +65,11 @@ You need to install [Node](https://nodejs.org/en/), [Elm-lang](http://elm-lang.o
 ## Installation
 
 `git clone https://github.com/khusnetdinov/elmkit`
+
 `cd elmkit`
+
 `npm install`
+
 `npm run development`
 
 
