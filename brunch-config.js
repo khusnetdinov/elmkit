@@ -15,8 +15,9 @@ module.exports = {
         mode: 'native'
       },
       elmBrunch: {
-        mainModule: "src/elm/Main.elm",
-        outputFolder: "public/javascripts/"
+        mainModules: ['src/elm/Application.elm'],
+        outputFolder: "public/javascripts/",
+        outputFile: "elm.js"
       }
     }
   }

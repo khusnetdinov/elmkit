@@ -4,9 +4,7 @@
     "repository": "https://github.com/khusnetdinov/elmkit.git",
     "license": "MIT",
     "source-directories": [
-        ".",
-        "app",
-        "app/elm"
+        "src/elm/"
     ],
     "exposed-modules": [],
     "dependencies": {

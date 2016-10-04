@@ -1,4 +1,4 @@
-Elm kit - web application boilerplate.
+# Elm kit - web application boilerplate | starter kit
 
 >  [Elm kit](https://github.com/khusnetdinov/elmkit) is web application boilerplate kit for development. This kit build on [Brunch](http://brunch.io/), [Node](https://nodejs.org/en/), [Sass](http://sass-lang.com/), [Elm-lang](http://elm-lang.org/). It helps you to start development more productive following best practices.
 
@@ -13,7 +13,7 @@ Elm kit - web application boilerplate.
 │   │   ├── favicon.ico         # Project Favicon
 │   │   └── index.html          # Layout html file
 │   ├── /elm/                   # Not compiled Elm files
-│   │   └── Main.elm            # Entry point for elm files
+│   │   └── Application.elm     # Entry point for elm files
 │   ├── /javascripts/           # Not compiled javascripts files
 │   └── /stylessheets/          # Not compiled stylessheets files
 │       └── appliction.scss     # Entry point for scss file
@@ -52,6 +52,8 @@ Elm kit - web application boilerplate.
 ## Requirements
 
 You need to install [Node](https://nodejs.org/en/), [Elm-lang](http://elm-lang.org/);
+
+## Installation
 
 Clone this repo: `git clone https://github.com/khusnetdinov/elmkit`
 
