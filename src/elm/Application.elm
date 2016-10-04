@@ -1,8 +1,8 @@
 module Application exposing (main)
 
-import Html exposing (text, div)
-import Html.Attributes exposing (class)
+import Html exposing (text)
 
+import Application.Layout as Layout exposing (view)
 
 main =
-  div [ class "e-application"] [ text "Application.elm" ]
+  Layout.view

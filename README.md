@@ -15,7 +15,15 @@
 │   ├── /elm/                   # Not compiled Elm files
 │   │   └── Application.elm     # Entry point for elm files
 │   ├── /javascripts/           # Not compiled javascripts files
+│   │   └── appliction.js       # Entry point for scss file
 │   └── /stylessheets/          # Not compiled stylessheets files
+│       ├── /global/            # Best place for global settings
+│       │   ├── fonts.scss      # Fonts settings and loading
+│       │   ├── forms.scss      # Global forms settings
+│       │   ├── mixins.scss     # Custom mixins
+│       │   ├── overloads.scss  # Styles overloads for 3rd party
+│       │   └── settings.scss   # Main styles setting
+│       ├── /modules/           # Elm modules styles
 │       └── appliction.scss     # Entry point for scss file
 │
 ├── /public/                    # Brunch builded and compiled project files
@@ -26,8 +34,8 @@
 │   │   └── application.js      # Main javascript file
 │   ├── /stylesheets/           # Project stylesheet files
 │   │   └── appliction.css      # Main css file
-│   ├── favicon.ico            # Project favicon
-│   └── index.html             # Builded index page
+│   ├── favicon.ico             # Project favicon
+│   └── index.html              # Builded index page
 │
 ├── /docs/                      # Documentation files for the project
 ├── /elm-stuff/                 # Elm compiler technical folder
@@ -42,11 +50,12 @@
 └── .gitignore                  # Git ignored files
 ```
 
-> Brunch compiled files with `*.js.map` is junk.
+> Brunch compiled files with `*.js.map` are junk.
 
 ### Commands
 
  `development` - Run development server
+
  `build`       - Create build for production
 
 ## Requirements

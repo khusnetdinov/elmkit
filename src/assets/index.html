@@ -23,12 +23,8 @@
     <script src="javascripts/application.js" type="text/javascript" charset="utf-8"></script>
     <!-- ADD YOUR SITE VENDOR JAVASCRIPT DEPENDENSIES BEFORE -->
   </head>
-  <body class="body">
-    <div id="application">
-      <!-- HERE APPLICATION WILL BE INJECTED -->
-    </div>
-    <script type="text/javascript" charset="utf-8">
-      Elm.Application.embed(document.getElementById('application'));
-    </script>
+  <body id="body">
+    <script type="text/javascript" charset="utf-8">Elm.Application.fullscreen();</script>
+    <!-- HERE APPLICATION WILL BE INJECTED -->
   </body>
 </html>
