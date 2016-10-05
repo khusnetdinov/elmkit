@@ -1,3 +1,4 @@
+![img](https://avatars0.githubusercontent.com/u/4359353?v=3&s=150)
 # Elm kit - web application boilerplate | starter kit
 
 >  [Elm kit](https://github.com/khusnetdinov/elmkit) is web application boilerplate kit for development. This kit build on [Brunch](http://brunch.io/), [Node](https://nodejs.org/en/), [Sass](http://sass-lang.com/), [Elm-lang](http://elm-lang.org/). It helps you to start development more productive following best practices.
