@@ -4,7 +4,7 @@ module.exports = {
       port: 3000
     },
     paths: {
-      watched: ["src"]
+      watched: ["src", "spec"]
     },
     files: {
       javascripts: { joinTo: "javascripts/application.js" },

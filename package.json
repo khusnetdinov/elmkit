@@ -20,6 +20,9 @@
   },
   "scripts": {
     "development": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "spec:build": "elm-make spec/Tests.elm --output elm-stuff/spec.js",
+    "spec:run": "node elm-stuff/spec.js",
+    "spec": "npm run spec:build && npm run spec:run"
   }
 }

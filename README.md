@@ -4,11 +4,12 @@
 
 ## Features
 
-- Building project with [Brunch](https://brunch.io)
-- Auto re-build project on change files [auto-reload-brunch](https://github.com/brunch/auto-reload-brunch)
-- Hot Module Reloading with [hrm-brunch](https://github.com/brunch/hmr-brunch)
-- [Elm-lang](http://elm-lang.org/) integration
-- [Scss](http://sass-lang.com/) styles integration
+- Auto building project using [Brunch](https://brunch.io)
+- Auto re-building on changing files [auto-reload-brunch](https://github.com/brunch/auto-reload-brunch)
+- Hot Module Reloading [hrm-brunch](https://github.com/brunch/hmr-brunch)
+- Integration [Elm-lang](http://elm-lang.org/)
+- Auto preprocessing [Scss](http://sass-lang.com/) styles
+- Testing elm components with [elm-spec](https://github.com/avh4/elm-spec)
 
 ## Getting started
 
@@ -45,6 +46,8 @@
 │   ├── favicon.ico             # Project favicon
 │   └── index.html              # Builded index page
 │
+├── /spec/                      # Specs for elm components
+│   └── Tests.elm               # Entry point for all tests
 ├── /docs/                      # Documentation files for the project
 ├── /elm-stuff/                 # Elm compiler technical folder
 ├── /node_modules/              # Node (Brunch) 3rd-party libraries
