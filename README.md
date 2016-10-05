@@ -49,6 +49,7 @@
 │
 ├── /spec/                      # Specs for elm components
 │   └── Tests.elm               # Entry point for all tests
+│
 ├── /docs/                      # Documentation files for the project
 ├── /elm-stuff/                 # Elm compiler technical folder
 ├── /node_modules/              # Node (Brunch) 3rd-party libraries
