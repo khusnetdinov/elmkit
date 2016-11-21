@@ -15,14 +15,13 @@
     "auto-reload-brunch": "^2.7.1",
     "brunch": "^2.8.2",
     "elm-brunch": "^0.7.0",
+    "elm-test": "^0.18.0",
     "hmr-brunch": "^0.1.1",
     "sass-brunch": "^2.6.3"
   },
   "scripts": {
     "development": "brunch watch --server",
     "build": "brunch build --production",
-    "spec:build": "elm-make spec/Tests.elm --output elm-stuff/spec.js",
-    "spec:run": "node elm-stuff/spec.js",
-    "spec": "npm run spec:build && npm run spec:run"
+    "test": "rm tests/elm-package.json && cp elm-package.json tests && elm-test"
   }
 }
