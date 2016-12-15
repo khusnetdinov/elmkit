@@ -10,7 +10,7 @@
 - Hot Module Reloading [hrm-brunch](https://github.com/brunch/hmr-brunch)
 - Integration [Elm-lang](http://elm-lang.org/)
 - Auto preprocessing [Scss](http://sass-lang.com/) styles
-- Testing elm components with [elm-spec](https://github.com/avh4/elm-spec)
+- Testing elm components with [elm-test](https://github.com/elm-community/elm-test)
 
 ## Getting started
 
@@ -47,8 +47,10 @@
 │   ├── favicon.ico             # Project favicon
 │   └── index.html              # Builded index page
 │
-├── /spec/                      # Specs for elm components
-│   └── Tests.elm               # Entry point for all tests
+├── /tests/                     # Tests for elm components
+│   ├── Main.elm                # Entry point for all tests
+│   ├── Tests.elm               # Test suite
+│   └── elm-package.json        # Copy of elm-package.json from root
 │
 ├── /docs/                      # Documentation files for the project
 ├── /elm-stuff/                 # Elm compiler technical folder
@@ -70,12 +72,8 @@
  `development` - Run development server
 
  `build`       - Create build for production
- 
- `spec:build`  - Compile Elm specs to js
- 
- `spec:run`    - Execute compiled tests
- 
- `spec`        - Run tests (compile and run)
+
+ `test`        - Run tests (compile and run, wrapper for elm-test)
 
 ## Requirements
 
@@ -113,5 +111,3 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
