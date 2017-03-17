@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/khusnetdinov/elmkit.svg?branch=master)](https://travis-ci.org/khusnetdinov/elmkit)
+
 ![img](https://avatars0.githubusercontent.com/u/4359353?v=3&s=150)
 # Elm kit - web application boilerplate | starter kit
 
@@ -69,11 +71,11 @@
 
 ### Commands
 
- `development` - Run development server
+ `npm run development` - Run development server
 
- `build`       - Create build for production
+ `npm run build`       - Create build for production
 
- `test`        - Run tests (compile and run, wrapper for elm-test)
+ `npm test`        - Run tests (compile and run, wrapper for elm-test)
 
 ## Requirements
 
@@ -86,6 +88,8 @@ You need to install [Node](https://nodejs.org/en/), [Elm-lang](http://elm-lang.o
 `cd elmkit`
 
 `npm install`
+
+`elm package install`
 
 `npm run development`
 
