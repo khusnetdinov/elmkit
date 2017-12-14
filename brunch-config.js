@@ -17,7 +17,8 @@ module.exports = {
       elmBrunch: {
         mainModules: ['src/elm/Application.elm'],
         outputFolder: "public/javascripts/",
-        outputFile: "elm.js"
+        outputFile: "elm.js",
+        makeParameters: ['--debug']
       }
     }
   }
