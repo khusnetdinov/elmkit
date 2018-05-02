@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/khusnetdinov/elmkit.svg?branch=master)](https://travis-ci.org/khusnetdinov/elmkit)
+[![Build Status](https://travis-ci.org/khusnetdinov/elmkit.svg?branch=master)](https://travis-ci.org/khusnetdinov/elmkit) [![Open Source Helpers](https://www.codetriage.com/khusnetdinov/elmkit/badges/users.svg)](https://www.codetriage.com/khusnetdinov/elmkit)
 
 ![img](https://avatars0.githubusercontent.com/u/4359353?v=3&s=150)
 # Elm kit - web application boilerplate | starter kit
