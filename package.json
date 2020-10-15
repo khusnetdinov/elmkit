@@ -17,7 +17,7 @@
     "elm-brunch": "^0.7.0",
     "elm-test": "^0.18.0",
     "hmr-brunch": "^0.1.1",
-    "sass-brunch": "^2.6.3"
+    "sass-brunch": "^3.0.0"
   },
   "scripts": {
     "development": "brunch watch --server",
