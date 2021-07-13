@@ -12,7 +12,7 @@
   "main": "brunch-config.js",
   "dependencies": {},
   "devDependencies": {
-    "auto-reload-brunch": "^2.7.1",
+    "auto-reload-brunch": "^3.0.1",
     "brunch": "^2.8.2",
     "elm-brunch": "^0.7.0",
     "elm-test": "^0.18.0",
