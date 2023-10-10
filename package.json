@@ -11,7 +11,7 @@
   "license": "MIT",
   "main": "brunch-config.js",
   "devDependencies": {
-    "auto-reload-brunch": "^2.7.1",
+    "auto-reload-brunch": "^3.0.1",
     "brunch": "^4.0.2",
     "elm-brunch": "^0.7.0",
     "elm-test": "^0.19.1",
