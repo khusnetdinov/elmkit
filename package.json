@@ -10,7 +10,6 @@
   "author": "Marat Khusnetdinov",
   "license": "MIT",
   "main": "brunch-config.js",
-  "dependencies": {},
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
     "brunch": "^2.8.2",
